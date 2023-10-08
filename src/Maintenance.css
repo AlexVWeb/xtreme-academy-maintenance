@@ -1,0 +1,87 @@
+@import url("//fonts.googleapis.com/css?family=Open Sans:regular,700,italic");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style pour le corps de la page */
+body {
+  background-image: url('/img/geoffrey_tacky.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  font-family: Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+/* Logo */
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    width: 200px;
+    height: fit-content;
+}
+
+/* Style pour le container */
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style pour les titres */
+h1 {
+    font-size: clamp(24px, 2.25vw, 36px);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: clamp(18px, 1.75vw, 28px);
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+p {
+    font-size: clamp(12px, 1vw, 16px);
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.maintenance-container {
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: #43434396;
+  margin: 0 2%;
+}
+
+.reseaux-sociaux {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+.reseaux-sociaux img {
+    width: 35px;
+    height: 35px;
+}
+
+.reseaux-sociaux :hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
