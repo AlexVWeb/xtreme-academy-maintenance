@@ -4,6 +4,7 @@ import instagramLogo from '/img/instagram.svg'
 import contactLogo from '/img/mail.svg'
 import logoXtremeAcademy from '/img/logo-xtreme-academy.png'
 import './Maintenance.css'
+import Stages from "./Stages.jsx";
 
 export default function Maintenance() {
     return <>
@@ -17,6 +18,9 @@ export default function Maintenance() {
                 En attendant, retrouvez l&apos;ensemble de notre actualité sur nos réseaux sociaux.
                 Les prochains événements seront annoncés très prochainement.
             </p>
+
+            <Stages />
+
             <div className="reseaux-sociaux">
                 <a href="mailto:contact@xtreme-academy.com" target="_blank" title="Nous contacter par mail" rel="noreferrer">
                     <img src={contactLogo} alt="Contact Xtreme Academy" />

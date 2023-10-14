@@ -54,6 +54,12 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    font-size: clamp(14px, 1.5vw, 24px);
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
 p {
     font-size: clamp(12px, 1vw, 16px);
     margin-bottom: 24px;
@@ -84,4 +90,53 @@ p {
 .reseaux-sociaux :hover {
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+
+/* Stages */
+.stages_container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.stages {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    row-gap: 8px;
+}
+
+.stage {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    border-radius: 8px;
+    background: #4e4e4e;
+    padding: 0 8px;
+}
+
+.stage:hover {
+    transition: 0.5s;
+    background: #2e2e2e;
+    cursor: pointer;
+}
+
+.image_stage > img {
+    width: 100%;
+    max-width: 170px;
+    object-fit: contain;
+    height: 50px;
+}
+
+.image_stage {
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+    min-width: 100px;
+}
+
+.stage_content {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding-left: 16px;
 }
