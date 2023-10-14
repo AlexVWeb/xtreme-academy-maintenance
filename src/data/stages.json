@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Bootcamp Xperience Edition FIGHT",
+    "date": "28 et 29 Octobre 2023",
+    "location": "La Motte Tilly, Aude (10)",
+    "link": "https://bootcamp-xperience-edition-fight.adeorun.com/",
+    "color": "#db4a4d",
+    "img": "/img/stages/logo-mnu-xperience.png"
+  },
+  {
+    "name": "Immersion : dans la peau d'un tireur d'élite",
+    "date": "Du 10 au 12 novembre 2023",
+    "location": "près d'Aix en Provence, Provence-Alpes-Côte d'Azur (13)",
+    "link": "https://immersion-dans-la-peau-dun-tireur-delite.adeorun.com/",
+    "color":  "#534e3b",
+    "img":  "/img/stages/logo ops tireur elite_1.jpg"
+  }
+]
