@@ -17,8 +17,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  margin: 0;
 }
 /* Logo */
 .logo {
@@ -108,10 +106,13 @@ p {
 .stage {
     display: flex;
     align-items: center;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     border-radius: 8px;
     background: #4e4e4e;
     padding: 0 8px;
+    text-decoration: none;
+    color: white;
 }
 
 .stage:hover {

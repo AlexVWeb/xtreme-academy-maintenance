@@ -2,7 +2,7 @@
   {
     "name": "Bootcamp Xperience Edition FIGHT",
     "date": "28 et 29 Octobre 2023",
-    "location": "La Motte Tilly, Aude (10)",
+    "location": "Chez OPS, à La Motte Tilly (10)",
     "link": "https://bootcamp-xperience-edition-fight.adeorun.com/",
     "color": "#db4a4d",
     "img": "/img/stages/logo-mnu-xperience.png"
@@ -14,5 +14,13 @@
     "link": "https://immersion-dans-la-peau-dun-tireur-delite.adeorun.com/",
     "color":  "#534e3b",
     "img":  "/img/stages/logo ops tireur elite_1.jpg"
+  },
+  {
+    "name": "Bootcamp Xtreme Military Edition",
+    "date": "Du 8 au 10 décembre 2023",
+    "location": "Chez OPS, à La Motte Tilly (10)",
+    "link": "https://bootcamp-xtreme-military-edition.adeorun.com/",
+    "color":  "#507c2f",
+    "img":  "/img/stages/logos_millitary.png"
   }
 ]

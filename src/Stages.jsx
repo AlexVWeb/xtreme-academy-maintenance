@@ -8,9 +8,11 @@ export default function Stages() {
         }
 
         return <>
-            <div
+            <a
                 className="stage"
-                onClick={handleClick}
+                href={link}
+                target="_blank"
+                rel="noreferrer"
             >
                 <div className="image_stage">
                     <img src={img} alt={name}/>
@@ -18,7 +20,7 @@ export default function Stages() {
                 <div className="stage_content">
                     {date} - {name} - {location}
                 </div>
-            </div>
+            </a>
         </>
     }
 

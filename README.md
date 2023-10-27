@@ -1,8 +1,21 @@
-# React + Vite
+# Xtreme Academy
+## Page de Maintenance
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Description
+Projet de maintenance de la page d'accueil du site de l'association Xtreme Academy.
 
-Currently, two official plugins are available:
+### Installation
+1. Cloner le projet
+2. Installer les dépendances
+```
+npm install
+```
+3. Lancer le serveur
+```
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Technologies
+- HTML
+- CSS
+- React
