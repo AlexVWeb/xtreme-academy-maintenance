@@ -24,6 +24,5 @@ jobs:
           server: ftp.hoge0555.odns.fr
           username: hoge0555
           password: ${{ secrets.FTP_PASSWORD }}
-          dry-run: true
           local-dir: ./dist/
           server-dir: /public_html/Test Deploy/
