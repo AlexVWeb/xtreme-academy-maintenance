@@ -25,5 +25,5 @@ jobs:
           username: hoge0555
           password: ${{ secrets.FTP_PASSWORD }}
           dry-run: true
-          local-dir: /dist/
+          local-dir: ./
           server-dir: /public_html/Test Deploy/
