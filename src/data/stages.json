@@ -1,13 +1,5 @@
 [
   {
-    "name": "Bootcamp Xperience Edition FIGHT",
-    "date": "28 et 29 Octobre 2023",
-    "location": "Chez OPS, à La Motte Tilly (10)",
-    "link": "https://bootcamp-xperience-edition-fight.adeorun.com/",
-    "color": "#db4a4d",
-    "img": "/img/stages/logo-mnu-xperience.png"
-  },
-  {
     "name": "Immersion : dans la peau d'un tireur d'élite",
     "date": "Du 10 au 12 novembre 2023",
     "location": "près d'Aix en Provence, Provence-Alpes-Côte d'Azur (13)",
@@ -22,5 +14,13 @@
     "link": "https://bootcamp-xtreme-military-edition.adeorun.com/",
     "color":  "#507c2f",
     "img":  "/img/stages/logos_millitary.png"
+  },
+  {
+    "name": "Xtreme Survival",
+    "date": "Du 8 au 10 décembre 2023",
+    "location": "Chez OPS, à La Motte Tilly (10)",
+    "link": "https://my.weezevent.com/stage-avance-resilience-en-situation-degradee-xtreme-survival?fbclid=IwAR152crXtczwSc6W1z-SBXTvQtsuAJBSubuiric05nCgUxQn44VY8qKWZgU",
+    "color":  "#b9aa81",
+    "img":  "/img/stages/logo_survival.png"
   }
 ]
