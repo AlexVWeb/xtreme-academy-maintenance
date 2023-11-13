@@ -5,7 +5,8 @@
     "location": "près d'Aix en Provence, Provence-Alpes-Côte d'Azur (13)",
     "link": "https://immersion-dans-la-peau-dun-tireur-delite.adeorun.com/",
     "color":  "#534e3b",
-    "img":  "/img/stages/logo ops tireur elite_1.jpg"
+    "img":  "/img/stages/logo ops tireur elite_1.jpg",
+    "disabled": true
   },
   {
     "name": "Bootcamp Xtreme Military Edition",

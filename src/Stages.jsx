@@ -1,17 +1,14 @@
-import React from 'react';
 import stages from './data/stages.json';
 
 export default function Stages() {
-    const Stage = ({name, date, link, img, location, color}) => {
-        const handleClick = () => {
-            window.open(link, '_blank');
-        }
+    const Stage = ({name, date, link, img, location, color, disabled}) => {
+        if (disabled) link = '#';
 
         return <>
-            <a
+        <a
                 className="stage"
                 href={link}
-                target="_blank"
+                target={disabled ? '' : '_blank'}
                 rel="noreferrer"
             >
                 <div className="image_stage">
@@ -29,7 +26,7 @@ export default function Stages() {
         <div className="stages_container">
             <h3>Inscriptions ouvertes</h3>
             <div className="stages">
-                {stages.map((stage, index) => Stage(stage))}
+                {stages.map((stage) => Stage(stage))}
             </div>
         </div>
     </>
